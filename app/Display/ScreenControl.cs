@@ -43,7 +43,7 @@ namespace GHelper.Display
 
             if (frequency >= MAX_REFRESH)
             {
-                frequency = ScreenNative.GetMaxRefreshRate(laptopScreen);
+              frequency = 60;
             }
 
             if (frequency > 0 && frequency != refreshRate)
